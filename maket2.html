@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Maket</title>
+<!-- 	<link rel="stylesheet" type="text/css" href="mobile.css"> -->
+	<style type="text/css">
+		*{
+	margin:0;
+	padding:0;
+}
+.container{
+	width: 1200px;
+	height: 1800px;
+	border:5px solid black;
+	margin:0 auto;
+}
+.container .header{
+	background-color: #dbe2f2;
+	height: 150px;
+	flex-wrap: nowrap;
+
+}
+.content{
+	background-color: #dadfeb;
+}
+.row{
+	width: 1000px;
+	margin: 0 auto;
+}
+.container .header .chap, .container .header .ong{
+	width: 500px;
+	float: left;
+}
+.container .header .chap p{
+	line-height: 130px;
+	font-family: "Myraid Pro";
+	font-size: 50px;
+	color:#6771b4;
+}
+.container .header .pas p{
+	line-height: 0px;
+	font-family: "Myraid Pro";
+	font-size: 20px;
+	color:#6771b4;
+	margin-top: -30px;
+
+}
+.container .header .ong ul{
+	margin-top:60px; 
+	list-style:none;
+
+}
+.container .header .ong ul li{
+	margin-left:0.3px; 
+	float: left;
+	color:#4f63a7;
+	margin: 5px;
+}
+.container .header .ong ul li a{
+	font-family: "Arial";
+	text-decoration-line: none;
+	color:#4f63a7;
+}
+.container .header .ong ul li .active{
+	color:#00aeef;
+	color: black;
+	border-radius: 5px
+}
+.tozalash{
+	clear: both;
+}
+
+.rasm{
+	margin-top: 25px;
+}
+.yoz{
+	width: 1197px;
+	height: 150px;
+	border: solid #ffffff;
+	display: flex;
+}
+.yoz p{
+	/*line-height: 130px;*/
+	font-family: "Myraid Pro";
+	font-size: 45px;
+	color:#6771b4;
+}
+.block1{
+	width: 250px;
+	height: 100px;
+	border: 4px solid #ffffff;
+	margin-top: 20px;
+	margin-left: 200px;
+	background-image: url("Без названия.png");
+	background-image:linear-gradient( to left bottom,#6983ba,#6f76b7,#a6b9ee);
+	border-radius: 10px;
+	box-shadow: 5px darkblue inset;
+}
+.block1 img{
+	position: absolute;
+	top: 700px;
+}
+.block1 p{
+font-family: "New Times roman";
+	font-size: 25px;
+	color:#d6d8e4;
+	margin-left: 65px;
+	margin-top: 25px;
+
+}
+.cet{
+	width: 1197px;
+	height: 330px;
+	border: 2px solid white;
+	display: flex;
+}
+.block2{
+	width: 250px;
+	height: 297px;
+	border: 2px solid white;
+	margin: 20px;
+	background-color: white;
+}
+.bloc1{
+	width: 140px;
+	height: 70px;
+	border: 1px solid red;
+	margin-left: 55px;
+	margin-top: 10px;
+}
+.bloc2{
+	width: 140px;
+	height: 70px;
+	border: 1px solid red;
+	margin-left: 55px;
+	margin-top: 10px;
+}
+.bloc3{
+	width: 140px;
+	height: 70px;
+	border: 1px solid red;
+	margin-left: 55px;
+	margin-top: 10px;
+}
+.bloc4{
+	width: 140px;
+	height: 70px;
+	border: 1px solid red;
+	margin-left: 55px;
+	margin-top: 10px;
+}
+h3{
+	font-family: "New Times roman";
+	font-size: 20px;
+	color:#4063a8;
+	margin-left: 55px;
+	margin-top: 15px;
+}
+p{
+	font-family: "New Times roman";
+	font-size: 20px;
+	color:#132445;
+	margin-left: 55px;
+	margin-top: 15px;
+}
+h4{
+	font-family: "New Times roman";
+	font-size: 16px;
+	color:#132445;
+	margin-left: 35px;
+	margin-top: 15px;
+}
+.ver{
+	width: 150px;
+	height: 20px;
+	border: 2px solid black;
+	color: #ebedf0;
+	border-radius: 20px;
+	margin-left: 40px;
+	margin-top: 20px;
+	margin: 0 auto;
+	background-image:linear-gradient( to top,#cfcfcf,#f7f7f7);
+}
+.ver p{
+	font-family: "New Times roman";
+	font-size: 16px;
+	color: blue;
+	margin-left: 35px;
+	margin-top: 5px;
+
+}
+.veh{
+	width: 50px;
+	height: 20px;
+	border: 1px solid black;
+	color: #e9e9e9;
+	border-radius: 20px;
+}
+.ner{
+	width: 1197px;
+	height: 500px;
+	/*border: 2px solid blue;*/
+	display: flex;
+}
+.nef{
+	width: 700px;
+	height: 498px;
+	/*border: 2px solid red;*/
+	display: flex;
+}
+.nep{
+	width: 491px;
+	height: 498px;
+	/*border: 2px solid red;*/
+}
+.tort{
+	width: 200px;
+	height: 220px;
+	border: 1px solid black;
+	margin-top: 5px;
+	margin-left: 10px;
+	
+}
+.jer{
+	display: flex;
+}
+.tex{
+	width: 200px;
+	height: 220px;
+	border: 1px solid black;
+	float: left;
+}
+
+
+
+.det{
+	width: 380px;
+	height: 300px;
+	/*border: 1px solid black;*/
+	margin:50px;
+
+}
+/*.block1 img{
+	color: #2f3b67;
+	margin: 0 auto;
+	margin-left: 20px;
+	margin-bottom: 50px;
+}*/
+.det p{
+	font-size: 13px;
+
+}
+.cef{
+	width: 1197px;
+	height: 165px;
+	border: 2px solid white;
+	display: flex;
+	background-color: #565f81;
+}
+.get{
+	width: 650px;
+	height: 160px;
+	/*border: 2px solid white;*/
+	/*margin: 2px;*/
+	/*float: left;*/
+}
+/*.ges{
+	width: 597px;
+	height: 160px;
+	border: 2px solid#5e0000;
+	/*float: left;*/
+}*/
+.get p{
+	font-size: 15px;
+	margin: 0 auto;
+}
+.get h5{
+	margin-left: 600px;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+.home {
+	width: 55px;
+	height: 25px;
+	border: 1px solid black;
+	border-radius: 20px;
+	display: flex;
+	background-image:linear-gradient( to top,#cfcfcf,#f7f7f7);
+}
+.text{
+	color: blue;
+}
+.logo img{
+	position: absolute;
+	top: 1200px;
+	left: 50px;
+}
+.titlee p{
+	position: absolute;
+	top: 1200px;
+	left: 70px;
+}
+.textt p{
+	position: absolute;
+	top: 1250px;
+	left: 0px;
+}
+.logo1 img{
+	position: absolute;
+	top: 1200px;
+	left: 450px;
+}
+.titlee1 p{
+	position: absolute;
+	top: 1200px;
+	left: 470px;
+}
+.textt1 p{
+	position: absolute;
+	top: 1250px;
+	left: 400px;
+}
+.logo2 img{
+	position: absolute;
+	top: 1400px;
+	left: 50px;
+}
+.titlee2 p{
+	position: absolute;
+	top: 1400px;
+	left: 70px;
+}
+.textt2 p{
+	position: absolute;
+	top: 1450px;
+	left: 0px;
+}
+.logo3 img{
+	position: absolute;
+	top: 1395px;
+	left: 450px;
+}
+.titlee3 p{
+	position: absolute;
+	top: 1395px;
+	left: 470px;
+}
+.textt3 p{
+	position: absolute;
+	top: 1445px;
+	left: 400px;
+}
+.ong ul li{
+	display: flex;
+}
+
+
+
+
+
+
+@media	screen and (min-width: 951px) and (max-width: 1251px){
+	.container{
+		width: 900px;
+	}
+	.content .rasm img{
+		width: 900px;
+	}
+	.block2{
+		width: 900px;
+	}
+}
+@media	screen and (min-width: 651px) and (max-width: 951px){
+	.container{
+		width: 600px;
+	}
+	.content .rasm img{
+		width: 600px;
+	}
+	.block2{
+		width: 600px;
+	}
+}
+@media	screen and (min-width: 351px) and (max-width: 651px){
+	.container{
+		width: 300px;
+	}
+	.content .rasm img{
+		width: 300px;
+	}
+	.block2{
+		width: 300px;
+	}
+}
+
+
+
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="header">
+		<div class="row">
+			<div class="chap">
+				<p>Corparatix</p> 
+
+					<div class="pas">
+				<p>Corporate Business PSD Template</p>
+					</div>
+
+			</div>	
+			
+
+			<div class="ong">
+				<ul>
+				<div class="home">
+					<li><a href="#" class="active">Home</a></li>
+				
+					<li><a href="#">About Us</a></li>
+					
+					<li><a href="#">Services</a></li>
+					
+					<li><a href="#">Portfolio</a></li>
+					
+					<li><a href="#">Testimonial</a></li>
+					
+					<li><a href="#">Blog</a></li>
+					
+					<li><a href="#" >Contact Us</a></li>
+					
+					<div class="tozalash"></div>
+				</div>
+				</ul>
+			</div>
+			<div class="tozalash"></div>
+
+		</div>
+		<div class="content">
+			<div class="rasm">
+				<img src="komp.jpg" width="1197px" height="500px">
+			</div>
+			<div class="yoz">
+				<p>We can make your online business <br>
+				easy & usable for all walks of people</p>
+				<div class="block1">
+					<p>Let’s start <br> 
+						your Website</p>
+						<img src="images.png" width="50px" height="50px">
+				</div>
+			</div>
+			<div class="cet">
+				<div class="block2">
+					<div class="bloc1">
+						<img src="1b.jpg" width="140px" height="70px">
+					</div>
+					 <h3>Business Heading</h3>					 
+					<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt mi id libero egestas ut interdum nibh <br>cursus.</h4>
+					<div class="ver">
+					<!-- <input type="button" name=""> -->
+					<a href="#"><p>Read More ></p></a>
+					</div>
+				</div>
+				<div class="block2">
+					<div class="bloc2">
+						<img src="2b.jpg" width="140px" height="70px">
+					</div>
+					<p>Business Heading</p>
+					<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt mi id libero egestas ut interdum nibh <br>cursus.</h4>
+					<div class="ver">
+					<!-- <input type="button" name=""> -->
+					<a href=""><p>Read More ></p></a>
+					</div>
+				</div>
+				<div class="block2">
+					<div class="bloc3">
+						<img src="3b.jpg" width="140px" height="70px">
+					</div>
+					<p>Business Heading</p>
+					 <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt mi id libero egestas ut interdum nibh <br>cursus.</h4>
+					 <div class="ver">
+					<!-- <input type="button" name=""> -->
+					<a href=""><p>Read More ></p></a>
+					</div>
+				</div>
+				<div class="block2">
+					<div class="bloc4">
+						<img src="4b.jpg" width="140px" height="70px">
+					</div>
+					<p>Business Heading</p>
+					 <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt mi id libero egestas ut interdum nibh <br>curcus</h4>
+					 <div class="ver">
+					<!-- <input type="button" name=""> -->
+					<a href=""><p>Read More ></p></a>
+					</div>
+				</div>
+			</div>
+			<div class="ner">
+				<div class="nef">
+					<!-- <div class="tort"></div>
+					<div class="tort"></div><br><br><br><br><br> -->					
+					<div class="jer">
+					<!-- <div class="tex"></div>
+					<div class="tex"></div> -->
+					</div>
+				</div>
+				<div class="nep">
+					<div class="det">
+						<h4>About the Company</h4><br>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt mi id libero egestas ut interdum nibh cursus. Nulla erat orci, adipiscing vel molestie ac, vehicula in dui. Proin vel lorem in tellus placerat eleifend. Duis iaculis lorem a ipsum euismod vel ullamcorper arcu placerat. Aenean elementum tortor vel nisi bibendum bibendum. Aliquam fringilla feugiat ante in vestibulum. Sed non justo justo. Aenean et quam dolor. Vivamus aliquet gravida nunc, sed elementum elit blandit vel. Aliquam neque quam, dignissim ac mattis at, hendrerit nec elit. Cras commodo gravida placerat. </p>
+						<a href="#" class="text"><h4>Read More ></h4></a>
+
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+		<div class="footer">
+			<div class="cef">
+			
+			<div class="get">
+				<div class="ong">
+				<ul>
+				<!-- <div class="veh"> -->
+					<li><a href="#" class="active">Home</a></li>
+				<!-- </div> -->
+					<li><a href="#">About Us</a></li>
+					
+					<li><a href="#">Services</a></li>
+					
+					<li><a href="#">Portfolio</a></li>
+					
+					<li><a href="#">Testimonial</a></li>
+					
+					<li><a href="#">Blog</a></li>
+					
+					<li><a href="#" >Contact Us</a></li>
+					
+					<div class="tozalash"></div>
+				</ul>
+			</div>
+			<div class="tozalash"></div><br>
+	
+		<p>© 2010 WebCorp LLC | Terms of service | Privacy policy</p>
+
+		<h5>Connect with us:</h5>
+		</div>
+			</div>
+			<!-- <div class="ges"></div>	 -->
+
+			</div>
+
+		</div>
+		<div class="chapp">
+			<div class="logo">
+				<img src="chap.jpg">
+			</div>
+			<div class="titlee">
+				<p>Title Heading</p>
+			</div>
+			<div class="textt">
+				<p>Lorem ipsum dolor sit amet, cons <br> ectetur adipiscing elit. Aliqu am <br> tincidunt mi id libero egestas ut <br> interdum nibh cursus.</p>
+			</div>
+		</div>
+		<div class="chapp">
+			<div class="logo1">
+				<img src="ong.jpg">
+			</div>
+			<div class="titlee1">
+				<p>Title Heading</p>
+			</div>
+			<div class="textt1">
+				<p>Lorem ipsum dolor sit amet, cons <br> ectetur adipiscing elit. Aliqu am <br> tincidunt mi id libero egestas ut <br> interdum nibh cursus.</p>
+			</div>
+		</div>
+		<div class="chapp">
+			<div class="logo2">
+				<img src="chappast.jpg">
+			</div>
+			<div class="titlee2">
+				<p>Title Heading</p>
+			</div>
+			<div class="textt2">
+				<p>Lorem ipsum dolor sit amet, cons <br> ectetur adipiscing elit. Aliqu am <br> tincidunt mi id libero egestas ut <br> interdum nibh cursus.</p>
+			</div>
+		</div>
+		<div class="chapp">
+			<div class="logo3">
+				<img src="ongpast.jpg">
+			</div>
+			<div class="titlee3">
+				<p>Title Heading</p>
+			</div>
+			<div class="textt3">
+				<p>Lorem ipsum dolor sit amet, cons <br> ectetur adipiscing elit. Aliqu am <br> tincidunt mi id libero egestas ut <br> interdum nibh cursus.</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
